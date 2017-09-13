@@ -1,0 +1,30 @@
+/*--- Layout ---*/
+.container{
+  width: 91.25%;
+  margin: 0 auto;
+}
+
+/*--- Components ---*/
+
+/*Header*/
+header{
+  height: 90px;
+}
+#logo{
+  height: 56.2px;
+}
+
+
+
+
+
+
+/*--- Colors ---*/
+.main-blue {
+  background-color: rgba(17, 76, 108, 0.82);
+}
+.white {
+  background-color: white;
+}
+
+/*Fonts*/
