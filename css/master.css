@@ -3,21 +3,9 @@
   width: 91.25%;
   margin: 0 auto;
 }
-
-/*--- Components ---*/
-
-/*Header*/
-header{
-  height: 90px;
+.flex{
+  display: flex;
 }
-#logo{
-  height: 56.2px;
-}
-
-
-
-
-
 
 /*--- Colors ---*/
 .main-blue {
@@ -28,3 +16,61 @@ header{
 }
 
 /*Fonts*/
+
+/*--- Components ---*/
+
+/*General Components*/
+button{
+  height: 4.4vh;
+  min-height: 25px;
+  width: 18vh;
+  min-width: 103px;
+  background: rgba(255, 255, 255, 0);
+  border: 1px solid white;
+  color: white;
+  font-family: "BPG Nino Mtavruli Bold", sans-serif;
+  padding-top: 5px;
+  font-size: 14px;
+}
+.button-active{
+  color: black;
+  background-color: white;
+}
+
+/*Header*/
+header{
+  height: 8.7%;
+  min-height: 50px;
+  width: 100%;
+  position: absolute;
+}
+#logo{
+  width: 12.5%;
+  height: 62%;
+  margin-top: auto;
+  position: absolute;
+  left: 4.357%; top: 19%;
+}
+#header-nav{
+  display: absolute;
+  position: absolute;
+  right: 4.357%; top: 19%;
+}
+#header-nav img{
+  height: 4.4vh;
+  min-height: 25px;
+  width: 3vh;
+  min-width: 30px;
+  float: right;
+}
+#header-nav button, #header-nav img{
+  margin-left: 1vw;
+}
+/*Hero Section*/
+#hero-section{
+  background-image: url('https://static.pexels.com/photos/160107/pexels-photo-160107.jpeg');
+  height: 385px;
+  background-position: center;
+  background-size: 100% auto;
+}
+
