@@ -3,7 +3,7 @@
 }
 .candidat{
     margin: 2% 1%;
-    background: linear-gradient(to top, #1dade4 65%, white 35%);
+    background: linear-gradient(to top, #1dade4 65%, rgba(255, 255, 255, 0) 35%);
 }
 .candidat h3{
     padding-top: 10px;
