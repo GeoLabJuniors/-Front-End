@@ -1,42 +1,4 @@
-/*--- Layout ---*/
-.container{
-  width: 91.25%;
-  margin: 0 auto;
-}
-.flex{
-  display: flex;
-}
-
-/*--- Colors ---*/
-.main-blue {
-  background-color: rgba(17, 76, 108, 0.82);
-}
-.white {
-  background-color: white;
-}
-
-/*Fonts*/
-
 /*--- Components ---*/
-
-/*General Components*/
-button{
-  height: 4.4vh;
-  min-height: 25px;
-  width: 18vh;
-  min-width: 103px;
-  background: rgba(255, 255, 255, 0);
-  border: 1px solid white;
-  color: white;
-  font-family: "BPG Nino Mtavruli Bold", sans-serif;
-  padding-top: 5px;
-  font-size: 14px;
-}
-.button-active{
-  color: black;
-  background-color: white;
-}
-
 /*Header*/
 header{
   height: 8.7%;
@@ -45,11 +7,14 @@ header{
   position: absolute;
 }
 #logo{
-  width: 12.5%;
+  width: 24.5%;
   height: 62%;
   margin-top: auto;
   position: absolute;
   left: 4.357%; top: 19%;
+  background-image: url('../../img/logo.svg');
+  background-size: auto 100%;
+  background-repeat: no-repeat;
 }
 #header-nav{
   display: absolute;
@@ -68,9 +33,17 @@ header{
 }
 /*Hero Section*/
 #hero-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-image: url('https://static.pexels.com/photos/160107/pexels-photo-160107.jpeg');
-  height: 385px;
+  background-repeat: no-repeat;
+  height: 42vh;
   background-position: center;
   background-size: 100% auto;
+}
+#hero-section img{
+  height: 10px;
+  padding-left: 5px;
 }
 

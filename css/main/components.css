@@ -1,0 +1,27 @@
+/*--- General Components ---*/
+button{
+    height: 4.4vh;
+    min-height: 25px;
+    width: 18vh;
+    min-width: 103px;
+    background: rgba(255, 255, 255, 0);
+    border: 1px solid white;
+    padding-top: 5px;
+  }
+  .button-active{
+    color: black;
+    background-color: white;
+  }
+
+  .hero-btn{
+      width: 22%;
+      max-width: 282px;
+  }
+
+  /*--- Candidat Container ---*/
+  .candidat img{
+    border-radius: 100%;
+    width: 215px;
+    height: 215px;
+    border: 2px solid #f8d830;
+  }
