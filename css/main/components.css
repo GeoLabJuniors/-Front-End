@@ -25,3 +25,25 @@ button{
     height: 215px;
     border: 2px solid #f8d830;
   }
+
+  /*--- Pagnation ---*/
+  .pagination{
+    margin-top: 80px;
+  }
+  .pagination a {
+    color: black;
+    border: none;
+    border: 1px solid white !important;
+    border-left: 1px solid #ea2140 !important;
+    background: none;
+  }
+  .pagination li:first-child a{
+    border: 1px solid white !important;;
+  }
+  .pagination .active a{
+    background-color: #ea2140 !important;
+    border: 1px solid white !important;
+  }
+  .pagination span{
+    color: #ea2140
+  }

@@ -34,3 +34,9 @@
     color: black;
     text-align: left;
 }
+
+/*--- Pagination Font ---*/
+.pagination{
+    font-family: "BPG Nino Mtavruli Bold", sans-serif;
+    font-size: 14px;
+}

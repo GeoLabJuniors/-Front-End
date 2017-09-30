@@ -75,3 +75,17 @@
   color: white;
   text-decoration: none;
 }
+
+/*--- Pagination Hover  ---*/
+.pagination a:hover {
+  color: white;
+  background-color: #ea2140;
+}
+.pagination a:hover span{
+  color: white;
+}
+.pagination li:nth-child(5) a:hover {
+  color: #A8A8A8;
+  background-color: #F7F7F7;
+  cursor: default;
+}
