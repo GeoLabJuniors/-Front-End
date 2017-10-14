@@ -7,6 +7,7 @@ button{
     background: rgba(255, 255, 255, 0);
     border: 1px solid white;
     padding-top: 5px;
+    cursor: pointer;
   }
   .button-active{
     color: black;
@@ -16,8 +17,10 @@ button{
   .hero-btn{
       width: 22%;
       max-width: 282px;
+
   }
 
+ 
   /*--- Candidat Container ---*/
   .candidat img{
     border-radius: 100%;
@@ -47,3 +50,41 @@ button{
   .pagination span{
     color: #ea2140
   }
+
+  /*--- search form ---*/
+.search-window{
+  width: 55%;
+  display: flex;
+}
+.search-window input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+.search-window input:focus{
+  color: white;
+  background-color: #1caee5;
+  border: 2px solid #fad72c;
+}
+  
+.form-control{
+  display: inline;
+  width: 79%;
+  height: 45px;
+  border-radius: 0;
+  border: 2px solid #fad72c;
+  border-right: 0px;
+  background-color: #1caee5;
+}
+.search-button{
+  width: 4%;
+  height: 45px;
+  background-color: #1caee5;
+  border: 2px solid #fad72c;
+  border-left: 0px;
+  height: 45px;
+  margin-left: -0.5%;
+}
+.search-button img{
+  height: 20px !important;
+}
+
+

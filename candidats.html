@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main/reset.css">
+    <link rel="stylesheet" href="css/main/colorsNfonts.css">
+    <link rel="stylesheet" href="css/main/layout.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main/master.css">
+    <link rel="stylesheet" href="css/main/components.css">
+    <link rel=icon href=img/favicon.png>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="fonts/bpg-nino-mtavruli-bold-master/css/bpg-nino-mtavruli-bold.min.css">    
+    <title>Candidats</title>
+</head>
+<body class="main-font">
+    <header class="main-blue"></header>
+    <section id="hero-section">
+        <form action="" class="form-group search-window">
+            <input type="text" class="form-control" aria-describedby="emailHelp" placeholder="ძებნა">
+            <button class="search-button"><img src="img/search.svg" alt=""></button>
+        </form>
+    </section>
+
+    <div class="container-fluid main-container" id="candidats-with-filter">
+        <div class="row">
+            <div class="col-xs-6 col-sm-3 filter">
+                <div id="accordion" class="panel panel-primary behclick-panel">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">ძებნა</h3>
+                        <p>ნაპოვნია 151 ადამიანი</p>
+                    </div>
+                    <div class="panel-body" >
+                        <div class="panel-heading " >
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" href="#collapse0">
+                                    <i class="indicator fa fa-caret-down" aria-hidden="true"></i> უნარები
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse0" class="panel-collapse collapse in" >
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" value="">
+                                            HTML
+                                        </label>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="checkbox" >
+                                        <label>
+                                            <input type="checkbox" value="">
+                                            CSS
+                                        </label>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="checkbox"  >
+                                        <label>
+                                            <input type="checkbox" value="">
+                                            React
+                                        </label>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="checkbox"  >
+                                        <label>
+                                            <input type="checkbox" value="">
+                                            JavaScript
+                                        </label>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+            <div class="col candidats-on-listing-page">
+                <div class="row">
+                    <div class="candidat col text-center"></div>
+                    <div class="candidat col text-center"></div>
+                    <div class="candidat col text-center"></div>
+                </div>
+            
+                <div class="row">
+                    <div class="candidat col text-center"></div>
+                    <div class="candidat col text-center"></div>
+                    <div class="candidat col text-center"></div>
+                </div>
+                <div class="row">
+                    <div class="candidat col text-center"></div>
+                    <div class="candidat col text-center"></div>
+                    <div class="candidat col text-center"></div>
+                </div>
+                <div class="row">
+                    <div class="candidat col text-center"></div>
+                    <div class="candidat col text-center"></div>
+                    <div class="candidat col text-center"></div>
+                </div>
+                <nav aria-label="Page navigation">
+                    <ul class="pagination justify-content-center">
+                      <li class="page-item"><a class="page-link" href="#"><span>&laquo;</span> წინა</a></li>
+                      <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item"><a class="page-link" href="#">...</a></li>
+                      <li class="page-item"><a class="page-link" href="#">47</a></li>
+                      <li class="page-item"><a class="page-link" href="#">48</a></li>
+                      <li class="page-item"><a class="page-link" href="#">შემდეგი <span>&raquo;</span></a></li>
+                    </ul>
+            </nav>
+        </div>
+        </div>
+        </div>
+    </div>
+
+    <footer class="main-blue">
+        <section id="partners">
+          <img src="img/logos/geolab.png" alt="parner">
+          <img src="img/logos/leavingstone.png" alt="parner">
+          <img src="img/logos/gita.png" alt="parner">
+          <img src="img/logos/geocell.jpg" alt="parner">
+        </section>
+        <span id="footer-line"></span>
+        <section id="copyright">
+          <p class="btn-font">ყველა უფლება დაცულია © 2017</p>
+        </section>
+    </footer>
+
+
+
+
+
+
+
+
+
+     <!-- Css -->
+  <link rel="stylesheet" href="css/main/interaction.css">
+  <link rel="stylesheet" href="css/pagesNcomponents/candidatInList.css">
+
+  <!-- bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  
+  <!-- add elements in html -->
+  <script src="js/printHeader.js"></script>
+  <script src="js/printCandidats.js"></script>
+
+  <!-- interaction -->
+  <script src="js/interaction.js"></script>
+</body>
+</html>

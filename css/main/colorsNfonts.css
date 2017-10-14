@@ -9,6 +9,9 @@
 
 
   /*--- Fonts ---*/
+  .main-font{
+    font-family: "BPG Nino Mtavruli Bold", sans-serif;
+  }
 
   /* Button Fonts */
 .btn-font{
