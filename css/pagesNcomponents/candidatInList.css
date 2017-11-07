@@ -28,3 +28,37 @@
     padding: 15px;
     margin-bottom: 1500px;
 }
+#show-more-arrow{
+    height: 12px;
+    transform: rotate(180deg);
+}
+.bullet-pagination{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.bullet{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #999999;
+    margin: 2px;
+}
+.active-bullet{
+    background-color: #ea2140;
+}
+.rating-from-to{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 0.5%;
+}
+.rating-from-to > .col{
+    margin: 2%;
+}
+.slider-range-two{
+    width: 100%;
+    margin: 0 auto;
+}
+.clear-search{
+    border-bottom: 3px solid rgba(15, 76, 109, 0.3);
+}
