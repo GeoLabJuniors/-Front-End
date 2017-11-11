@@ -35,7 +35,8 @@
                     </div>
                     <div class="line"></div>
                     <br/>
-                    <p onclick="showFilter()" class="filter-name">შესაძლებლობები <img src="img/arrow-red.svg" alt="show more" id="show-more-arrow"></p>
+                    <section class="possibilities-section">
+                    <p class="filter-name"><span class="possibilities-headline">შესაძლებლობები <img class="possibilities-headline" src="img/arrow-red.svg" alt="show more" id="show-more-arrow"></span></p>
                     <form class="possibilities">
                         <div class="row">
                             <label class="col-sm"><input type="checkbox"><span><img src="img/checkbox.svg">HTML</span></label>
@@ -57,28 +58,31 @@
                             <label class="col-sm"><input type="checkbox"><span><img src="img/checkbox.svg">HTML</span></label>
                             <label class="col-sm"><input type="checkbox"><span><img src="img/checkbox.svg">CSS</span></label>
                         </div>
+                        <div class="bullet-pagination">
+                            <span class="bullet"></span>
+                            <span class="bullet active-bullet"></span>
+                            <span class="bullet"></span>
+                            <span class="bullet"></span>
+                        </div>
                     </form>
-                    <div class="bullet-pagination">
-                        <span class="bullet"></span>
-                        <span class="bullet active-bullet"></span>
-                        <span class="bullet"></span>
-                        <span class="bullet"></span>
-                    </div>
+                    </section>
 
                     <div class="line"></div>
                     <br>
 
-                    <p onclick="showFilter()" class="filter-name">რეიტინგი <img src="img/arrow-red.svg" alt="show more" id="show-more-arrow"></p>
+                    <section class="rating-section">
+                    <p class="filter-name"><span class="rating-headline">რეიტინგი <img src="img/arrow-red.svg" class="rating-headline" alt="show more" id="show-more-arrow"></span></p>
                     <form class="row rating-from-to">
                         <input type="text" placeholder="0" class="col">
                         <input type="text" placeholder="100" class="col">
                     
-                        <div class="row slider-range-two">
+                        <!-- <div class="row slider-range-two">
                             <span class="rangeValues"></span>
                             <input value="500" min="500" max="50000" step="500" type="range">
                             <input value="50000" min="500" max="50000" step="500" type="range">
-                        </div>
+                        </div> -->
                     </form>
+                    </section>
 
                     <br/>
                     <div class="line"></div>

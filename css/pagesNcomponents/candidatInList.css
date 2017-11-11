@@ -92,3 +92,9 @@
 .rating-from-to input{
     border: 3px solid #1dade4;
 }
+.hide{
+    display: none;
+}
+.arrow-up{
+    transform: none !important;
+}
