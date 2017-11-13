@@ -46,6 +46,12 @@
     margin-bottom: 25px;
 }
 .active-bullet{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #999999;
+    margin: 2px;
+    margin-bottom: 25px;
     background-color: #ea2140;
 }
 .rating-from-to{
@@ -85,8 +91,9 @@
     display: none;
 }
 .possibilities img{  
-    width: 13px;
-    padding-bottom: 5px; 
+    width: 18px;
+    height: 18px;
+    padding-bottom: 5px;
     margin-right: 6px;
 }
 .rating-from-to input{
@@ -97,4 +104,14 @@
 }
 .arrow-up{
     transform: none !important;
+}
+.checkbox{
+    background-image: url('../../img/checkbox-before.svg');
+    width: 100%;
+    height: 100%;
+}
+.checked-box{
+    background-image: url('../../img/checked-box.svg');
+    width: 100%;
+    height: 100%;
 }
