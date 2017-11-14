@@ -45,7 +45,7 @@
   transition-duration: 0.1s;
 }
 .hvr-icon-forward:before {
-  content: "\f138";
+  /* content: "\f138"; */
   position: absolute;
   right: 1em;
   padding: 0 5px;
