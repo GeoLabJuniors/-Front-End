@@ -2,7 +2,7 @@
 .main-blue {
     background-color: rgba(17, 76, 108, 0.82);
   }
-.second-blue{
+ .second-blue{
     background-color: #1dade4;
 }
 
@@ -43,3 +43,4 @@
     font-family: "BPG Nino Mtavruli Bold", sans-serif;
     font-size: 14px;
 }
+.nino-mtavruli { font-family: "BPG Nino Mtavruli"; } .color-while{color: #fff;}

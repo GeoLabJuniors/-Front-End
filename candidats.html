@@ -13,7 +13,7 @@
     <link rel=icon href=img/favicon.png>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"> 
     <link rel="stylesheet" href="fonts/bpg-nino-mtavruli-bold-master/css/bpg-nino-mtavruli-bold.min.css">    
-    <title>Candidats</title>
+    <title>სხვა საქართველო - დეველოპერები</title>
 </head>
 <body class="main-font">
     <header class="main-blue"></header>
@@ -36,7 +36,12 @@
                     <div class="line"></div>
                     <br/>
                     <section class="possibilities-section">
-                    <p class="filter-name"><span class="possibilities-headline">შესაძლებლობები <img class="possibilities-headline" src="img/arrow-red.svg" alt="show more" id="show-more-arrow"></span></p>
+                    <span class="filter-name">
+                        <span class="possibilities-headline">
+                            შესაძლებლობები
+                            <img src="img/arrow-red.svg" alt="show more" id="ps-up">
+                        </span>
+                    </span>
                     <form class="possibilities">
                         <div class="row">
                             <label class="col-sm"><input type="checkbox"><span><img src="img/checkbox.svg" class="checkbox">HTML</span></label>
@@ -58,12 +63,13 @@
                             <label class="col-sm"><input type="checkbox"><span><img src="img/checkbox.svg" class="checkbox">HTML</span></label>
                             <label class="col-sm"><input type="checkbox"><span><img src="img/checkbox.svg" class="checkbox">CSS</span></label>
                         </div>
-                        <div class="bullet-pagination">
+                        <br>
+                        <!-- <div class="bullet-pagination">
                             <span class="bullet"></span>
                             <span class="active-bullet"></span>
                             <span class="bullet"></span>
                             <span class="bullet"></span>
-                        </div>
+                        </div> -->
                     </form>
                     </section>
 
@@ -71,10 +77,15 @@
                     <br>
 
                     <section class="rating-section">
-                    <p class="filter-name"><span class="rating-headline">რეიტინგი <img src="img/arrow-red.svg" class="rating-headline" alt="show more" id="show-more-arrow"></span></p>
+                    <span class="filter-name">
+                        <span class="rating-headline">
+                                რეიტინგი
+                                <img src="img/arrow-red.svg" alt="show more" id="rat-up">
+                        </span>
+                    </span>
                     <form class="row rating-from-to">
-                        <input type="text" placeholder="0" class="col">
-                        <input type="text" placeholder="100" class="col">
+                        <input type="text" placeholder="0" class="col min-rat" value="0">
+                        <input type="text" placeholder="100" class="col max-rat" value="100">
                     
                         <!-- <div class="row slider-range-two">
                             <span class="rangeValues"></span>

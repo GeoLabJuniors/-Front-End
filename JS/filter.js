@@ -6,12 +6,15 @@ for (const i of filterName) {
 }
 
 function hideFilter(e){
-    if(e.srcElement.className === 'possibilities-headline'){  
-        $('.possibilities').toggleClass('hide');
+    if(e.srcElement.className === 'possibilities-headline' || $(e.path[0]).attr('id') === 'ps-up'){  
         $($('.possibilities-section').find('img')[0]).toggleClass('arrow-up')
-    } else if(e.srcElement.className === 'rating-headline'){
+        $('.possibilities').toggleClass('hide');
+        $($('.possibilities-section').find('img')[0])
+    }
+    if(e.srcElement.className === 'rating-headline' || $(e.path[0]).attr('id') === 'rat-up'){
+        $($('.rating-section').find('img')[0]).toggleClass('arrow-up');
         $('.rating-from-to').toggleClass('hide');
-        $($('.rating-section').find('img')[0]).toggleClass('arrow-up')
+        $($('.rating-section').find('img')[0]);
     }
 }
 
@@ -59,3 +62,18 @@ for (const i of checkbox) {
 //         $(e)[0].target.className = 'bullet'
 //     }
 // }
+
+
+// clear filter
+let clearButton = document.getElementsByClassName('clear-search')[0];
+let checkboxLength = $(document.getElementsByClassName('possibilities')[0]).find('img').length;
+
+clearButton.addEventListener('click', (e) => {
+
+    for(i = 0; i < checkboxLength; i++){
+        $(document.getElementsByClassName('possibilities')[0]).find('img')[i].className = 'checkbox';
+    }
+    
+    document.getElementsByClassName('rating-from-to')[0][0].value = '0';
+    document.getElementsByClassName('rating-from-to')[0][1].value = '100';
+});
