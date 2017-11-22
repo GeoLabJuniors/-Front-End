@@ -27,7 +27,23 @@ button{
     width: 215px;
     height: 215px;
     border: 2px solid #f8d830;
+    visibility: hidden;
   }
+
+
+
+.candidat .image-a {
+    background: #000;
+    border-radius: 100%;
+    border: 2px solid #f8d830;
+    display: inline-block;
+    background-color: #fff;
+    background-repeat: no-repeat;;
+    background-position: center top;
+    background-size: auto 100%;
+}
+
+
 
   /*--- Pagnation ---*/
   .pagination{

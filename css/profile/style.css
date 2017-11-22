@@ -11,22 +11,24 @@ body{background-image:none;}
 
 
 .profile img {
+  border: 2px solid #f8d830;
     border-radius: 100%;
+    padding: 10px;
     width: 196px;
     height: 196px;
-    border: 2px solid #f8d830;
-    /* position: absolute; */
-    /* top: -50%; */
-    /* transform: translateY(100%); */
-    padding: 10px;
-    }  _images.scss:15 .img-thumbnail {
-    padding: .25rem;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: .25rem;
-    transition: all .2s ease-in-out;
-    max-width: 100%;
-    height: auto;
+    visibility: hidden;
+    
+    }  
+
+
+
+.img-background {
+  background-color: #fff;
+border: 2px solid #f8d830;
+   border-radius: 100%;
+   background-repeat: no-repeat;
+    background-position: center top;
+    background-size: auto 100%;
 }
 
 .name-surname {
@@ -104,17 +106,7 @@ body{background-image:none;}
 .profile {position: relative;height: 600px;padding-top: 100px;}
 
 
-.profile img {
-    border-radius: 100%;
-    width: 196px;
-    height: 196px;
-    border: 2px solid #f8d830;
-    /* position: absolute; */
-    /* top: -50%; */
-    /* transform: translateY(100%); */
-    padding: 10px;
 
-}
 
 .name-surname {
     color: #000;
@@ -242,8 +234,8 @@ body{background-image:none;}
 .experince {
     position: relative;
 }
-.projects{border-top: 3pt solid #55a9df;}
-.projects:nth-child(2) {border:0;}
+.projects{border-top: 3pt solid #55a9df; text-transform: uppercase;}
+
 .pprojects {
     margin: 0 auto;
 }
