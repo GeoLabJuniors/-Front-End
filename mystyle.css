@@ -88,35 +88,91 @@ footer.main-blue{
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*=========*/
+.row .filter{
+	min-width: 235px;
+}
 
 
 
 /*responsive*/
+@media only screen and (max-width: 1200px){
+  .profile{
+  height: auto;
+}
+}
+@media only screen and (max-width: 989px){
+  .candidat-skils-fn {
+    min-height: 81px !important;
+}
+
+}
+@media only screen and (max-width: 551px){
+  .candidat-skils-fn {
+    min-height: 54px !important;
+}
+
+
+}
+@media only screen and (max-width: 700px){
+  .info {
+   
+    min-width: 270px;
+
+}
+	.sia{
+	margin-top: 90px;
+}
+
+
+.img-background{
+	margin: auto;
+}
+.info {
+    transform: translate(11px,72%);
+
+    }
+   .row .filter{
+	min-width: 100%;
+}
+#line{
+	  margin-top: 0px;
+	  margin: auto;
+}
+.filter{
+border-right: 3px solid rgba(15, 76, 109, 0.3);
+
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 600px){
 
 	#partners  img{
 height: 34px;
 }
-#line{
-	margin-top: 0px;
+.page-link {
+  
+    padding: .3rem .45rem;
 }
+
 }
