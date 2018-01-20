@@ -1,8 +1,8 @@
 /*--- General Components ---*/
 button{
-    height: 4.4vh;
+    /* height: 4.4vh; */
     min-height: 25px;
-    width: 18vh;
+    /* width: 18vh; */
     min-width: 103px;
     background: rgba(255, 255, 255, 0);
     border: 1px solid white;
@@ -15,17 +15,16 @@ button{
   }
 
   .hero-btn{
-      width: 22%;
+      width: 44vmax;
       max-width: 282px;
-
   }
 
  
   /*--- Candidat Container ---*/
   .candidat img{
     border-radius: 100%;
-    width: 215px;
-    height: 215px;
+    /* width: 215px; */
+    /* height: 215px; */
     border: 2px solid #f8d830;
     visibility: hidden;
   }
@@ -33,13 +32,27 @@ button{
 
 
 .candidat .image-a {
-    background: #000;
-    border-radius: 100%;
-    border: 2px solid #f8d830;
+    /* background: #000; */
+    border-radius: 200px;
+    border: 2px solid #fff;
     display: inline-block;
+    width: 15vmax;
+    position:  absolute;
+    height: 15vmax;
+    min-width: 150px;
+    min-height: 150px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-color: #fff;
-    background-repeat: no-repeat;;
+    background-repeat: no-repeat;
     background-position: center top;
+    background-size: auto 100%;
+    top:  50%
+    /* line-height: 218px; */
+    background-color: #fff
+    background-repeat: no-repeat
+    background-position: center top
     background-size: auto 100%;
 }
 
@@ -103,4 +116,21 @@ button{
   height: 20px !important;
 }
 
+.candidat  .hover:hover .image-a{
+  border-color: #e7e010;
+}
 
+.candidat  .hover:hover{
+  background-color: #e7e010;
+}
+.candidat  .hover{
+      width: 16vmax;
+    height: 16vmax;
+    min-width: 158px;
+    min-height: 158px;
+    display: inline-block;
+    background: transparent;
+    border: 2px solid #e7e010;
+    border-radius: 400px;
+    position: relative;
+}

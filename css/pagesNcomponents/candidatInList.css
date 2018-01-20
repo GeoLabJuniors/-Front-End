@@ -2,8 +2,19 @@
     width: 98%;
 }
 .candidat{
-    margin: 2% 1%;
+   
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.candidat div{
+     margin-left: 15px;
+     margin-right: 15px;
     background: linear-gradient(to top, #1dade4 65%, rgba(255, 255, 255, 0) 35%);
+
+}
+.candidat-skils-fn{
+    margin-left: 15px;
+    min-height: 54px;
 }
 .candidat h3{
     padding-top: 10px;
