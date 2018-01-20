@@ -125,6 +125,8 @@ button{
 }
 .candidat  .hover{
       width: 16vmax;
+      margin-left: 0px;
+      margin-right: 0px;
     height: 16vmax;
     min-width: 158px;
     min-height: 158px;
