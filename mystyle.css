@@ -7,7 +7,15 @@ footer.main-blue{
 }
 
 /*rating range*/
-
+  ul.candidat-statistics li{
+    display: block;
+  }
+  .panel-heading, 
+  .possibilities-section, 
+  .rating-section{
+      max-width: 295px;
+      margin: auto;
+  }
  #line{
        height: 5px;
        width: 200px;
@@ -117,7 +125,7 @@ footer.main-blue{
 @media only screen and (max-width: 700px){
   .info {
    
-    min-width: 270px;
+    min-width: 270	px;
 
 }
 	.sia{
@@ -135,10 +143,10 @@ footer.main-blue{
    .row .filter{
 	min-width: 100%;
 }
-#line{
+/*#line{
 	  margin-top: 0px;
 	  margin: auto;
-}
+}*/
 .filter{
 border-right: 3px solid rgba(15, 76, 109, 0.3);
 
