@@ -121,18 +121,18 @@ button{
 }
 
 .candidat  .hover:hover{
-  background-color: #e7e010;
+  background-color: #e7e01073;
 }
 .candidat  .hover{
       width: 16vmax;
       margin-left: 0px;
       margin-right: 0px;
-    height: 16vmax;
-    min-width: 158px;
-    min-height: 158px;
-    display: inline-block;
-    background: transparent;
-    border: 2px solid #e7e010;
-    border-radius: 400px;
-    position: relative;
+      height: 16vmax;
+      min-width: 158px;
+      min-height: 158px;
+      display: inline-block;
+      background: transparent;
+      border: 2px solid #e7e01073;
+      border-radius: 400px;
+      position: relative;
 }

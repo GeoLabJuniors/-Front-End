@@ -71,7 +71,7 @@ for (const i of checkbox) {
      var b = function (e){
          var x=Math.round(e.clientX-$('#line').offset().left);
          var y=Math.round(e.clientX-$('#line').offset().left);
-          var koepicienti=0.5;
+          var koepicienti=0.05;
           var nashti=100-koepicienti*x;
             if(x-test > test2-x){
           if (x*1>=0 && x<=200  ) {
