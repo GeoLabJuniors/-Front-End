@@ -254,9 +254,7 @@ body{background-image:none;}
     font-family: 'BPG Nino Mtavruli';
 }
 
-.pro2 {
-    font-size: 26px;
-}
+
 
 .projects h3 {
     margin: 25px 0;
@@ -264,8 +262,7 @@ body{background-image:none;}
     font-weight: bold;
 }
 .pro2 {
-    font-size: 26px !important;
-    margin-bottom: 25px !important;
+    font-size: 20px !important;
 }
 
 .projects p {
@@ -335,4 +332,8 @@ body{background-image:none;}
 @media screen and (max-width:480px){
  .about p{text-align:justify;
           font-size:20px}  
+}
+
+.biography {
+    line-height: 23px;
 }
